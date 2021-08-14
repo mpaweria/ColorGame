@@ -1,0 +1,73 @@
+body{
+	background: #232323;
+	margin: 0;
+}
+
+#container{
+	width: 600px;
+	margin: 20px auto;
+}
+
+.circle{
+	width: 30%;
+	padding-bottom: 30%;
+	background: purple;
+	float: left;
+	margin: 1.66%; 
+	border-radius: 50%;
+	transition: background 1s;
+}
+
+h1{
+	color: white;
+	background-color: steelblue;
+	margin: 0;
+	text-align: center;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+
+#stripe{
+	background: white;
+	height: 25px;
+	text-align: center;
+}
+.selected{
+	background: steelblue;
+	color: white;
+}
+#color{
+	text-transform: uppercase;
+	font-size: 200%
+}
+button{
+	border: none;
+	outline: none;
+	background: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-weight: 700;
+	font-size: inherit;
+	text-transform: uppercase;
+	color: steelblue;
+	letter-spacing: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	transition: all 0.7s;
+
+}
+button:hover {
+	background-color: steelblue;
+	color: white;
+}
+#msg{
+	width: 20%;
+	display: inline-block;
+	font-weight: 700;
+	font-size: inherit;
+	text-transform: uppercase;
+	color: steelblue;
+}
